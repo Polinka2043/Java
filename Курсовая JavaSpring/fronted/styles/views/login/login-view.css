@@ -1,0 +1,36 @@
+#login-view {
+  display: grid;
+  padding: 30%;
+}
+
+:host {
+  display: block;
+  padding: var(--lumo-space-m) var(--lumo-space-l);
+}
+.my-blue-button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.my-blue-button:hover {
+  background-color: #0069d9;
+}
+.drawer-login {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+}
+
+.drawer-login .my-blue-button {
+  width: 80%;
+}
+.background-image {
+  background-image: url('image/logo.png');
+  background-size: cover;
+}
